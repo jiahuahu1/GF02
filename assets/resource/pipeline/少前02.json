@@ -11,6 +11,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 500,
         "next": [
             "队伍编成"
         ]
@@ -27,6 +28,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 500,
         "next": [
             "编队人形选择"
         ]
@@ -44,6 +46,7 @@
                 ]
             }
         },
+        "post_delay": 500,
         "next": [
             "排序方式"
         ]
@@ -60,6 +63,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 500,
         "next": [
             "更多排序"
         ]
@@ -84,6 +88,7 @@
                 ]
             }
         },
+        "post_delay": 500,
         "next": [
             "暴伤排序"
         ]
@@ -98,6 +103,7 @@
                 ]
             }
         },
+        "post_delay": 500,
         "action": {
             "type": "Click",
             "param": {
@@ -127,6 +133,7 @@
                 ]
             }
         },
+        "post_delay": 500,
         "next": [
             "选择二队队长"
         ]
@@ -144,6 +151,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 500,
         "next": [
             "确定编队"
         ]
@@ -179,6 +187,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 500,
         "next": [
             "开始作战"
         ]
@@ -214,6 +223,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 500,
         "repeat": 2,
         "next": [
             "补给"
@@ -232,6 +242,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 500,
         "next": [
             "选择一队"
         ]
@@ -257,6 +268,7 @@
                 ]
             }
         },
+        "post_delay": 500,
         "next": [
             "计划模式"
         ]
@@ -274,6 +286,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 500,
         "next": [
             "战斗节点一"
         ]
@@ -299,6 +312,7 @@
                 ]
             }
         },
+        "post_delay": 500,
         "next": [
             "战斗节点二"
         ]
@@ -324,6 +338,7 @@
                 ]
             }
         },
+        "post_delay": 500,
         "next": [
             "下一回合"
         ]
@@ -341,6 +356,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 500,
         "next": [
             "执行计划"
         ]
@@ -376,6 +392,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 500,
         "next": [
             "新建节点27"
         ]
