@@ -362,7 +362,15 @@
             }
         },
         "action": {
-            "type": "Click"
+            "type": "Click",
+	    "param": {
+                "target": [
+                    1182,
+                    554,
+                    1,
+                    1
+                ]
+            }
         },
         "post_delay": 500,
         "next": [
@@ -380,7 +388,15 @@
             }
         },
         "action": {
-            "type": "Click"
+            "type": "Click",
+	    "param": {
+              "target": [
+                  1183,
+                  667,
+                  1,
+                  1
+                ]
+            }
         },
         "timeout": -1,
         "next": [
