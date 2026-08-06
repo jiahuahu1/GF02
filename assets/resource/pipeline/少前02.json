@@ -1,0 +1,550 @@
+{
+    "$__mpe_config_少前02": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "lastSyncTime": 1785979810190,
+            "isModifiedExternally": false,
+            "filePath": "E:\\mpelb\\runtime\\resource\\pipeline\\少前02.json",
+            "savedViewport": {
+                "x": 2900,
+                "y": 1465,
+                "zoom": 1.5
+            },
+            "filename": "少前02",
+            "version": "v1.7.4"
+        }
+    },
+    "指挥部": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "战场一队.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "队伍编成"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -1273,
+                "y": -687
+            }
+        }
+    },
+    "队伍编成": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "队伍编成"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "编队人形选择"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -973,
+                "y": -664
+            }
+        }
+    },
+    "编队人形选择": {
+        "pre_delay": 2000,
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    431,
+                    362,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "排序方式"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -718,
+                "y": -679
+            }
+        }
+    },
+    "排序方式": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "排序方式"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "更多排序"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -457,
+                "y": -670
+            }
+        }
+    },
+    "更多排序": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "更多"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1031,
+                    620,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "暴伤排序"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -195,
+                "y": -670
+            }
+        }
+    },
+    "暴伤排序": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "暴伤"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    958,
+                    511,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "编队1打手反选"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 64,
+                "y": -679
+            }
+        }
+    },
+    "编队1打手反选": {
+        "pre_delay": 500,
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    284,
+                    656,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "选择二队队长"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -1264,
+                "y": -312
+            }
+        }
+    },
+    "选择二队队长": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "队长二.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "确定编队"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -958,
+                "y": -339
+            }
+        }
+    },
+    "确定编队": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "确定"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "返回"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -701,
+                "y": -331
+            }
+        }
+    },
+    "返回": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "返回.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "开始作战"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -405,
+                "y": -309
+            }
+        }
+    },
+    "开始作战": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "开始作战"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 5000,
+        "next": [
+            "选择二队"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -150,
+                "y": -306
+            }
+        }
+    },
+    "选择二队": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "战场二队.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "repeat": 2,
+        "next": [
+            "补给"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -1285,
+                "y": 13
+            }
+        }
+    },
+    "补给": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "补给"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "选择一队"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -1004,
+                "y": 63
+            }
+        }
+    },
+    "选择一队": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "战场一队.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    596,
+                    513,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "计划模式"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -714,
+                "y": 40
+            }
+        }
+    },
+    "计划模式": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "计划模式"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "战斗节点一"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -455,
+                "y": 43
+            }
+        }
+    },
+    "战斗节点一": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "战斗节点一.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    516,
+                    175,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "战斗节点二"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -197,
+                "y": 42
+            }
+        }
+    },
+    "战斗节点二": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "战斗节点二.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    785,
+                    196,
+                    1,
+                    1
+                ]
+            }
+        },
+        "next": [
+            "下一回合"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 67,
+                "y": 56
+            }
+        }
+    },
+    "下一回合": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "下一回合"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "执行计划"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 331,
+                "y": 67
+            }
+        }
+    },
+    "执行计划": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "执行计划"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "timeout": -1,
+        "next": [
+            "再次作战"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 619,
+                "y": 72
+            }
+        }
+    },
+    "再次作战": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "再次作战"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点27"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -1247,
+                "y": 495
+            }
+        }
+    },
+    "新建节点27": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "继续.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "再次作战_副本5"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -983,
+                "y": 497
+            }
+        }
+    },
+    "再次作战_副本5": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "再次作战"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1000,
+        "next": [
+            "指挥部"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -714,
+                "y": 501
+            }
+        }
+    }
+}
