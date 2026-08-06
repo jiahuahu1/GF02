@@ -1,5 +1,6 @@
 {
     "指挥部": {
+	"max_hit":45,
         "recognition": {
             "type": "TemplateMatch",
             "param": {
