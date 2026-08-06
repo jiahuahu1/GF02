@@ -1,20 +1,4 @@
 {
-    "$__mpe_config_少前02": {
-        "$__mpe_code": {
-            "prefix": "",
-            "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1785979810190,
-            "isModifiedExternally": false,
-            "filePath": "E:\\mpelb\\runtime\\resource\\pipeline\\少前02.json",
-            "savedViewport": {
-                "x": 2900,
-                "y": 1465,
-                "zoom": 1.5
-            },
-            "filename": "少前02",
-            "version": "v1.7.4"
-        }
-    },
     "指挥部": {
         "recognition": {
             "type": "TemplateMatch",
